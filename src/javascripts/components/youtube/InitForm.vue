@@ -8,15 +8,11 @@
     </div>
     <form>
       <div class="init-form-item">
-        <p class="init-form-item-label">
-          YouTube Data API KEY
-        </p>
+        <p class="init-form-item-label">YouTube Data API KEY</p>
         <input v-model="apiKey" class="full" type="text" name="apiKey" />
       </div>
       <div class="init-form-item">
-        <p class="init-form-item-label">
-          Keyword
-        </p>
+        <p class="init-form-item-label">Keyword</p>
         <input v-model="keyword" class="full" type="text" name="keyword" />
       </div>
       <div class="init-form-item">
@@ -24,9 +20,7 @@
         入力内容をブラウザに保存する
       </div>
       <div class="init-form-item submit">
-        <button :disabled="!submitable" @click="submit">
-          スワイプで見る🚀
-        </button>
+        <button :disabled="!submitable" @click="submit">スワイプで見る🚀</button>
       </div>
     </form>
   </div>
